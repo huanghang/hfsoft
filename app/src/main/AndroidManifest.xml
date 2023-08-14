@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dawn.java"
+    >
+<!--android:sharedUserId="android.uid.system"-->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:usesCleartextTraffic="true"
+        android:name=".ui.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/DawnAppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.activity.CenterScanSettingActivity" />
+        <activity android:name=".ui.activity.VersionShowActivity" />
+        <activity android:name=".ui.activity.ImageShowActivity" />
+        <activity android:name=".ui.activity.BatchScanActivity" />
+        <activity android:name=".ui.activity.DebugAutoScanActivity" />
+        <activity android:name=".ui.activity.DebugAccuracyActivity" />
+        <activity android:name=".ui.activity.DebugUpdateActivity" />
+        <activity android:name=".ui.activity.DeviceUpdateActivity" />
+        <activity android:name=".ui.activity.DebugScanActivity" />
+        <activity android:name=".ui.activity.PropValueSetActivity" />
+        <activity android:name=".ui.activity.ParamSetActivity" />
+        <activity android:name=".ui.activity.CodeSetActivity" />
+		<activity android:name=".ui.activity.IlluminationSettingActivity" />
+        <activity android:name=".ui.activity.HighLightSettingActivity" />
+        <activity android:name=".ui.homePage.HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.welcomePage.WelcomeActivity" />
+    </application>
+
+</manifest>

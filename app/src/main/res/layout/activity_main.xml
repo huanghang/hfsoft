@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical">
+
+    <com.dawn.java.ui.widget.TopToolbar
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcLeftIcon="@mipmap/ic_launcher_round"
+        app:srcRightIcon="@drawable/icon_more" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:layout_weight="0"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/tv_scan_result"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:background="@drawable/border_text_scan_result"
+                android:layout_weight="0"
+                android:padding="5dp"
+                android:scrollbars="vertical"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/tv_point_result"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="0"
+                android:background="@drawable/border_text_scan_result"
+                android:padding="5dp"
+                android:layout_marginTop="30dp"
+                android:scrollbars="vertical"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_scan"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/selector_btn_blue"
+                android:text="@string/common_scan"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+            <Button
+                android:id="@+id/btn_clear"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/selector_btn_blue"
+                android:text="@string/common_clear"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+            <Button
+                android:id="@+id/btn_server"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/selector_btn_blue"
+                android:text="@string/common_set_server"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_screen"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/selector_btn_blue"
+                android:text="@string/common_screen"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

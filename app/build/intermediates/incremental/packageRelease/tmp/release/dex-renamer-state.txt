@@ -1,0 +1,4 @@
+#Thu Aug 10 10:54:08 CST 2023
+base.0=D\:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

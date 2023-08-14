@@ -1,0 +1,366 @@
+[
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_add_auto_item.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\layout_add_auto_item.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_illumination_setting.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\activity_illumination_setting.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_switch_ios_track_selector.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable\\switch_ios_track_selector.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_illmination.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\ic_illmination.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_continue_testing.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_continue_testing.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_text_scan_result.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable\\border_text_scan_result.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_setting.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_setting.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_save.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_save.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_arrow_right.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_arrow_right.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_debug_scan.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\activity_debug_scan.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_search.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_search.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_update.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_update.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_red_point.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_red_point.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_image_show.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\activity_image_show.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_setting_item_layout.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable\\selector_setting_item_layout.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_highlight.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\ic_highlight.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_complete.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_complete.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_prop_value_set.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\activity_prop_value_set.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_bg_pager_title_normal.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable\\btn_bg_pager_title_normal.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_debug_auto_scan.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\activity_debug_auto_scan.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_bg_pager_title_pressed.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable\\btn_bg_pager_title_pressed.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_media_pause.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\ic_media_pause.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_debug_accuracy.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_debug_accuracy.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_device_update.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\activity_device_update.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_process.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_process.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_switch_ios_thumb.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable\\switch_ios_thumb.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_auto_testing_item.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\layout_auto_testing_item.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_batch_scan.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\activity_batch_scan.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_blue_normal.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable\\btn_blue_normal.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_center_focus.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_center_focus.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_return.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_return.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_setting_param_view.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\layout_setting_param_view.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_debug_update.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_debug_update.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_debug_update.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\activity_debug_update.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_center_scan_setting.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\activity_center_scan_setting.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_warning.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_warning.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_stop.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_stop.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_delete.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_delete.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_version_show.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\activity_version_show.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_image.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_image.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_code_set.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\activity_code_set.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_switch_ios_track_on.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable\\switch_ios_track_on.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_orange_state.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_orange_state.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_green_state.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_green_state.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_setting_switch_view.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\layout_setting_switch_view.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_pager_title_bg.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable\\selector_pager_title_bg.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_wrong.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_wrong.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_scan_result_item.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\layout_scan_result_item.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_code_set.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\fragment_code_set.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_more.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_more.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_code_set.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_code_set.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_btn_blue.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable\\selector_btn_blue.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_welcome.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_check_list.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_check_list.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_plus.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_plus.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_blue_pressed.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable\\btn_blue_pressed.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_debug_accuracy.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\activity_debug_accuracy.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_code_enable_item.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\layout_code_enable_item.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_top_toolbar.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\layout_top_toolbar.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_param_set.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\activity_param_set.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_navi_home.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\activity_navi_home.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_return2.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_return2.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_batch.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_batch.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_debug_scan.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_debug_scan.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_media_play.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\ic_media_play.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_home_drawer.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\menu\\menu_home_drawer.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_waiting.png.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable-hdpi\\icon_waiting.png"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_switch_ios_track_off.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable\\switch_ios_track_off.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_highlight_setting.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\layout\\activity_highlight_setting.xml"
+    },
+    {
+        "merged": "D:\\PDA\\demo-60\\DLScan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_pager_title_text_color.xml.flat",
+        "source": "D:\\PDA\\demo-60\\DLScan\\app\\src\\main\\res\\drawable\\selector_pager_title_text_color.xml"
+    }
+]

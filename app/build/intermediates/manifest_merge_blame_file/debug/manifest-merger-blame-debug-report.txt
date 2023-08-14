@@ -1,0 +1,144 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dawn.java"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml
+10    <!-- android:sharedUserId="android.uid.system" -->
+11    <uses-feature
+11-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:7:5-9:36
+12        android:name="android.hardware.camera"
+12-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:8:9-47
+13        android:required="false" />
+13-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:9:9-33
+14
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:11:5-81
+15-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:11:22-78
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:12:5-65
+16-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:12:22-62
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:13:5-66
+17-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:13:22-63
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:14:5-67
+18-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:14:22-64
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->[com.leon:lfilepickerlibrary:1.8.0] C:\Users\hfsoft\.gradle\caches\transforms-3\825034c9eb5c9ac059f88c5c12a9b5ca\transformed\lfilepickerlibrary-1.8.0\AndroidManifest.xml:12:5-80
+19-->[com.leon:lfilepickerlibrary:1.8.0] C:\Users\hfsoft\.gradle\caches\transforms-3\825034c9eb5c9ac059f88c5c12a9b5ca\transformed\lfilepickerlibrary-1.8.0\AndroidManifest.xml:12:22-77
+20
+21    <application
+21-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:15:5-48:19
+22        android:name="com.dawn.java.ui.MyApplication"
+22-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:17:9-41
+23        android:allowBackup="true"
+23-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:18:9-35
+24        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+24-->[com.android.support:support-compat:28.0.0] C:\Users\hfsoft\.gradle\caches\transforms-3\288307da53bdcc6fb8f527684b06adbc\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:19:9-43
+28        android:label="@string/app_name"
+28-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:20:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:21:9-54
+30        android:supportsRtl="true"
+30-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:22:9-35
+31        android:testOnly="true"
+32        android:theme="@style/DawnAppTheme"
+32-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:23:9-44
+33        android:usesCleartextTraffic="true" >
+33-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:16:9-44
+34        <activity android:name="com.dawn.java.ui.activity.CenterScanSettingActivity" />
+34-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:25:9-75
+34-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:25:19-72
+35        <activity android:name="com.dawn.java.ui.activity.VersionShowActivity" />
+35-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:26:9-69
+35-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:26:19-66
+36        <activity android:name="com.dawn.java.ui.activity.ImageShowActivity" />
+36-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:27:9-67
+36-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:27:19-64
+37        <activity android:name="com.dawn.java.ui.activity.BatchScanActivity" />
+37-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:28:9-67
+37-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:28:19-64
+38        <activity android:name="com.dawn.java.ui.activity.DebugAutoScanActivity" />
+38-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:29:9-71
+38-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:29:19-68
+39        <activity android:name="com.dawn.java.ui.activity.DebugAccuracyActivity" />
+39-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:30:9-71
+39-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:30:19-68
+40        <activity android:name="com.dawn.java.ui.activity.DebugUpdateActivity" />
+40-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:31:9-69
+40-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:31:19-66
+41        <activity android:name="com.dawn.java.ui.activity.DeviceUpdateActivity" />
+41-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:32:9-70
+41-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:32:19-67
+42        <activity android:name="com.dawn.java.ui.activity.DebugScanActivity" />
+42-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:33:9-67
+42-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:33:19-64
+43        <activity android:name="com.dawn.java.ui.activity.PropValueSetActivity" />
+43-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:34:9-70
+43-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:34:19-67
+44        <activity android:name="com.dawn.java.ui.activity.ParamSetActivity" />
+44-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:35:9-66
+44-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:35:19-63
+45        <activity android:name="com.dawn.java.ui.activity.CodeSetActivity" />
+45-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:36:9-65
+45-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:36:19-62
+46        <activity android:name="com.dawn.java.ui.activity.IlluminationSettingActivity" />
+46-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:37:3-71
+46-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:37:13-68
+47        <activity android:name="com.dawn.java.ui.activity.HighLightSettingActivity" />
+47-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:38:9-74
+47-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:38:19-71
+48        <activity
+48-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:39:9-46:20
+49            android:name="com.dawn.java.ui.homePage.HomeActivity"
+49-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:39:19-59
+50            android:exported="true" >
+50-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:40:13-36
+51            <intent-filter>
+51-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:41:13-45:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:42:17-69
+52-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:42:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:44:17-77
+54-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:44:27-74
+55            </intent-filter>
+56        </activity>
+57        <activity android:name="com.dawn.java.ui.welcomePage.WelcomeActivity" />
+57-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:47:9-68
+57-->D:\PDA\demo-60\DLScan\app\src\main\AndroidManifest.xml:47:19-65
+58        <activity android:name="com.leon.lfilepickerlibrary.ui.LFilePickerActivity" />
+58-->[com.leon:lfilepickerlibrary:1.8.0] C:\Users\hfsoft\.gradle\caches\transforms-3\825034c9eb5c9ac059f88c5c12a9b5ca\transformed\lfilepickerlibrary-1.8.0\AndroidManifest.xml:17:9-87
+58-->[com.leon:lfilepickerlibrary:1.8.0] C:\Users\hfsoft\.gradle\caches\transforms-3\825034c9eb5c9ac059f88c5c12a9b5ca\transformed\lfilepickerlibrary-1.8.0\AndroidManifest.xml:17:19-84
+59
+60        <provider
+60-->[com.leon:lfilepickerlibrary:1.8.0] C:\Users\hfsoft\.gradle\caches\transforms-3\825034c9eb5c9ac059f88c5c12a9b5ca\transformed\lfilepickerlibrary-1.8.0\AndroidManifest.xml:19:9-27:20
+61            android:name="android.support.v4.content.FileProvider"
+61-->[com.leon:lfilepickerlibrary:1.8.0] C:\Users\hfsoft\.gradle\caches\transforms-3\825034c9eb5c9ac059f88c5c12a9b5ca\transformed\lfilepickerlibrary-1.8.0\AndroidManifest.xml:20:13-67
+62            android:authorities="com.dawn.java.provider"
+62-->[com.leon:lfilepickerlibrary:1.8.0] C:\Users\hfsoft\.gradle\caches\transforms-3\825034c9eb5c9ac059f88c5c12a9b5ca\transformed\lfilepickerlibrary-1.8.0\AndroidManifest.xml:21:13-60
+63            android:exported="false"
+63-->[com.leon:lfilepickerlibrary:1.8.0] C:\Users\hfsoft\.gradle\caches\transforms-3\825034c9eb5c9ac059f88c5c12a9b5ca\transformed\lfilepickerlibrary-1.8.0\AndroidManifest.xml:22:13-37
+64            android:grantUriPermissions="true" >
+64-->[com.leon:lfilepickerlibrary:1.8.0] C:\Users\hfsoft\.gradle\caches\transforms-3\825034c9eb5c9ac059f88c5c12a9b5ca\transformed\lfilepickerlibrary-1.8.0\AndroidManifest.xml:23:13-47
+65            <meta-data
+65-->[com.leon:lfilepickerlibrary:1.8.0] C:\Users\hfsoft\.gradle\caches\transforms-3\825034c9eb5c9ac059f88c5c12a9b5ca\transformed\lfilepickerlibrary-1.8.0\AndroidManifest.xml:24:13-26:58
+66                android:name="android.support.FILE_PROVIDER_PATHS"
+66-->[com.leon:lfilepickerlibrary:1.8.0] C:\Users\hfsoft\.gradle\caches\transforms-3\825034c9eb5c9ac059f88c5c12a9b5ca\transformed\lfilepickerlibrary-1.8.0\AndroidManifest.xml:25:17-67
+67                android:resource="@xml/provider_paths" />
+67-->[com.leon:lfilepickerlibrary:1.8.0] C:\Users\hfsoft\.gradle\caches\transforms-3\825034c9eb5c9ac059f88c5c12a9b5ca\transformed\lfilepickerlibrary-1.8.0\AndroidManifest.xml:26:17-55
+68        </provider>
+69    </application>
+70
+71</manifest>

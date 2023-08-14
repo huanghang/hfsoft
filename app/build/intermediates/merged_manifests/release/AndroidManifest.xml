@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dawn.java"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="33" />
+    <!-- android:sharedUserId="android.uid.system" -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.dawn.java.ui.MyApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/DawnAppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.dawn.java.ui.activity.CenterScanSettingActivity" />
+        <activity android:name="com.dawn.java.ui.activity.VersionShowActivity" />
+        <activity android:name="com.dawn.java.ui.activity.ImageShowActivity" />
+        <activity android:name="com.dawn.java.ui.activity.BatchScanActivity" />
+        <activity android:name="com.dawn.java.ui.activity.DebugAutoScanActivity" />
+        <activity android:name="com.dawn.java.ui.activity.DebugAccuracyActivity" />
+        <activity android:name="com.dawn.java.ui.activity.DebugUpdateActivity" />
+        <activity android:name="com.dawn.java.ui.activity.DeviceUpdateActivity" />
+        <activity android:name="com.dawn.java.ui.activity.DebugScanActivity" />
+        <activity android:name="com.dawn.java.ui.activity.PropValueSetActivity" />
+        <activity android:name="com.dawn.java.ui.activity.ParamSetActivity" />
+        <activity android:name="com.dawn.java.ui.activity.CodeSetActivity" />
+        <activity android:name="com.dawn.java.ui.activity.IlluminationSettingActivity" />
+        <activity android:name="com.dawn.java.ui.activity.HighLightSettingActivity" />
+        <activity
+            android:name="com.dawn.java.ui.homePage.HomeActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dawn.java.ui.welcomePage.WelcomeActivity" />
+        <activity android:name="com.leon.lfilepickerlibrary.ui.LFilePickerActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.dawn.java.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>
