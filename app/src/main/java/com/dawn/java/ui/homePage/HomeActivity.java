@@ -27,7 +27,6 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.text.method.ScrollingMovementMethod;
-import android.util.Base64;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MenuItem;
@@ -228,35 +227,34 @@ public class HomeActivity extends DawnActivity implements NavigationView.OnNavig
                     case MotionEvent.ACTION_DOWN:
                         String res = tv_scanResult.getText().toString();
                         if (res != null) {
-                            //if (res.contains("岩心") || res.contains("岩屑") || res.contains("壁心")) {
-                            new Thread(new Runnable() {
-                                @Override
-                                public void run() {
-                                    try {
-                                        SharedPreferences s2 = getSharedPreferences("user", Context.MODE_PRIVATE);
-                                        String ip = s2.getString("ip", "");
-                                        String port = s2.getString("port", "");
-                                        if (ip.equals("") || port.equals("")) {
+                            if (res.contains("岩心") || res.contains("岩屑") || res.contains("壁心")) {
+                                new Thread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        try {
+                                            SharedPreferences s2 = getSharedPreferences("user", Context.MODE_PRIVATE);
+                                            String ip = s2.getString("ip", "");
+                                            String port = s2.getString("port", "");
+                                            if (ip.equals("") || port.equals("")) {
+                                                Looper.prepare();
+                                                Toast.makeText(HomeActivity.this, "服务地址未配置", Toast.LENGTH_SHORT).show();
+                                                Looper.loop();
+                                            } else {
+                                                String urlPath = "http://" + ip + ":" + port + "/HFchartController/changeAction.form?action=1&param=" + res;
+                                                HttpURLconnectionClass.getData(urlPath);
+                                            }
+                                        } catch (Exception e) {
                                             Looper.prepare();
-                                            Toast.makeText(HomeActivity.this, "服务地址未配置", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(HomeActivity.this, "请检查服务器连接", Toast.LENGTH_SHORT).show();
                                             Looper.loop();
-                                        } else {
-                                            String param = new String(Base64.encode(res.getBytes(), Base64.DEFAULT));
-                                            String urlPath = "http://" + ip + ":" + port + "/HFchartController/changeAction.form?action=1&param=" + param;
-                                            HttpURLconnectionClass.getData(urlPath);
                                         }
-                                    } catch (Exception e) {
-                                        Looper.prepare();
-                                        Toast.makeText(HomeActivity.this, "请检查服务器连接", Toast.LENGTH_SHORT).show();
-                                        Looper.loop();
                                     }
-                                }
-                            }).start();
-//                            } else {
-//                                Looper.prepare();
-//                                Toast.makeText(HomeActivity.this, "请扫描正确的二维码格式", Toast.LENGTH_SHORT).show();
-//                                Looper.loop();
-//                            }
+                                }).start();
+                            } else {
+                                Looper.prepare();
+                                Toast.makeText(HomeActivity.this, "请扫描正确的二维码格式", Toast.LENGTH_SHORT).show();
+                                Looper.loop();
+                            }
                         } else {
                             Looper.prepare();
                             Toast.makeText(HomeActivity.this, "请先扫描二维码", Toast.LENGTH_SHORT).show();
@@ -392,22 +390,20 @@ public class HomeActivity extends DawnActivity implements NavigationView.OnNavig
                                         Toast.makeText(HomeActivity.this, "服务地址未配置", Toast.LENGTH_SHORT).show();
                                         Looper.loop();
                                     } else {
-                                        // if (strResult.equals("岩心") || strResult.equals("岩屑") || strResult.equals("壁心")) {
-
-                                        String param = new String(Base64.encode(strResult.getBytes(), Base64.DEFAULT));
-                                        String urlPath = "http://" + ip + ":" + port + "/HFchartController/queryAll.form?param=" + param;
-                                        String res = HttpURLconnectionClass.getData(urlPath);
-                                        //将更改主界面的消息发送给主线程
-                                        Message msg = new Message();
-                                        Bundle bundle = new Bundle();
-                                        bundle.putString("result", res);
-                                        msg.setData(bundle);
-                                        httpHandler.sendMessage(msg);
-//                                        } else {
-//                                            Looper.prepare();
-//                                            Toast.makeText(HomeActivity.this, "请扫描正确的二维码格式", Toast.LENGTH_SHORT).show();
-//                                            Looper.loop();
-//                                        }
+                                        if (strResult.equals("岩心") || strResult.equals("岩屑") || strResult.equals("壁心")) {
+                                            String urlPath = "http://" + ip + ":" + port + "/HFchartController/queryAll.form?param=" + strResult;
+                                            String res = HttpURLconnectionClass.getData(urlPath);
+                                            //将更改主界面的消息发送给主线程
+                                            Message msg = new Message();
+                                            Bundle bundle = new Bundle();
+                                            bundle.putString("result", res);
+                                            msg.setData(bundle);
+                                            httpHandler.sendMessage(msg);
+                                        } else {
+                                            Looper.prepare();
+                                            Toast.makeText(HomeActivity.this, "请扫描正确的二维码格式", Toast.LENGTH_SHORT).show();
+                                            Looper.loop();
+                                        }
                                     }
                                 } catch (Exception e) {
                                     Looper.prepare();
